@@ -1,0 +1,26 @@
+#rss_feed{
+
+padding-left: 12;
+color:#ffffff;
+size:11px;
+text-decoration: none;
+}
+
+#rss_feed li
+{
+
+margin:0 0 2px;padding:0 0 0 15px;background: url(../images/rss.png) no-repeat 0 3px ; text-decoration:none; color:#ffffff; font-family:Tahoma; font-size:13px;
+list-style-type: none;
+}
+
+#rss_feed li a{
+color:#ffffff;
+size:11px;
+text-decoration: none;
+}
+
+#rss_feed li a:hover{
+text-decoration: underline;
+}
+
+

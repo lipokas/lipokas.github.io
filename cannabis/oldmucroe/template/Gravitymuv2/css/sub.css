@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* 
+------------------------------------------------------------
+MGAME Web Design Team
+first written: Yang Young bok 090723
+updated: 
+------------------------------------------------------------
+*/
+
+@import url("default.css");
+@import url("content.css");
+@import url("board.css");
+
+/* layout */
+body{background:#1E0F07 url(../images/main/bg_body.gif) repeat-x;}
+#wrap{min-width:990px; background:url(../images/common/bg_wrap.jpg) no-repeat center 0;}
+#header{position:relative; margin:0 auto; width:990px; height:302px; background:url(../images/common/bg_header.jpg) no-repeat; z-index:40;}
+#container{position:relative; margin:0 auto; width:990px; background:url(../images/common/bg_container.jpg) no-repeat; _zoom:1; z-index:30;}
+#container:after{content:" "; display:block; clear:both; height:0; visibility:hidden;}
+#snb{position:relative; float:left; margin:0 12px 0 3px; padding:0 0 40px 0; width:253px; display:inline; z-index:20;}
+#snb .bgSnb{position:relative; background:url(../images/common/bg_container.jpg) no-repeat -3px 0; overflow:hidden; _zoom:1; z-index:20;}
+#snb .bgBottom{position:absolute; bottom:0; left:-3px; width:990px; height:800px; background:url(../images/common/snb/bg_snb.png) no-repeat 0 bottom; z-index:10;}
+#content{position:relative; float:left; padding:30px 36px 48px 0; width:686px; min-height:500px; _height:500px; background:url(../images/common/bg_content.gif) no-repeat right 0; color:#9B8966; z-index:30;}
+#footer{margin:26px auto 0 auto; padding:0 0 10px 0; width:990px;}
+#content .section{min-height:510px; _height:510px;}
+
+/* header */
+#header .start{	z-index:100;; top:244px; left:268px;}
+#header .visual{position:relative; top:2px; left:0;}
+
+
+/* footer */
+#footer ul{margin:0 6px 5px 3px; padding:6px 0 0 0; height:62px; background:url(../images/common/bg_footer.gif) no-repeat; text-align:center;}
+#footer li{display:inline; padding:0 8px 0 13px; background:url(../images/main/line_footer.gif) no-repeat 0 2px;}
+#footer li a{color:#635D51 !important; font:9px/12px Verdana;}
+#footer address{text-align:center;}
+#footer address img{margin:0 2px; vertical-align:middle;}
+
+/* login */
+.formLogin{margin:30px 0 0 15px; width:220px; height:225px;}
+.formLogin legend{position:relative; *margin:0 0 0 -7px; padding:13px 0 10px 14px; width:auto; height:auto; visibility:visible;}
+.formLogin .inputText{float:left; margin:0 0 3px 14px; padding:4px 6px 0 6px; width:111px; height:18px; border:none 0; color:#635E4A;}
+.formLogin .inputBtn{float:right; margin:-25px 14px 0 0; display:inline;}
+.formLogin .btn{clear:both; padding:4px 0 0 14px;}
+.formLogin ul{margin:14px 0 0 8px; padding:11px 0 0 0; width:204px; background:url(../images/login/line_login.gif) repeat-x;}
+.formLogin li{margin:0 0 0 6px;}
+.formLogin #iId{background:url(../images/login/bg_id.gif) no-repeat;}
+.formLogin #iPw{background:url(../images/login/bg_pw.gif) no-repeat;}
+
+.logout{margin:30px 0 0 15px; width:220px; height:225px;}
+.logout h2{margin:0 0 5px 8px; padding:16px 0 0 0; height:21px; background:url(../images/login/line_logout.gif) no-repeat 0 bottom; font:bold 10px/14px Verdana; color:#996600;}
+.logout h2 img{vertical-align:middle;}
+.logout .photo{float:left; margin:0 2px 0 14px; border:1px solid #6E5322; display:inline;}
+.logout ul{float:left; padding:14px 0 0 0; width:93px; height:83px; background:url(../images/login/bg_ncash.jpg) no-repeat;}
+.logout li{width:100%;}
+.logout li .ncash{display:block; padding:0 0 0 17px; color:#996600;}
+.logout .profile{clear:both; width:188px; padding:5px 0 0 14px;}
+.logout .email{padding:3px 0 0 14px;}
+
+/* snb */
+#snb h2{position:relative;}
+#snb .menu{position:relative; margin:13px 0 0 13px; padding:0 0 23px 0; width:224px; background:url(../images/common/snb/bg_menu.png) no-repeat 0 bottom; z-index:20;}
+#snb .menu ul{margin:-1px 0 0 19px; width:185px;}
+#snb .menu li{border-top:1px solid #2D240D;}
+#snb .menu ul ul{margin:0 0 5px 12px; padding:0 0 5px 0; width:161px; background:url(../images/common/snb/bg_sub.gif) no-repeat 0 bottom;}
+#snb .menu ul ul li{border:none; margin:0 0 0 10px; padding:7px 0 1px 0; background:url(../images/common/snb/line_sub.gif) no-repeat;}
+#snb .menu ul ul li.top{margin:0; padding:9px 0 1px 10px; background:url(../images/common/snb/bg_sub_top.gif) no-repeat;}
+#snb .quicklink{position:relative; margin:10px 0 0 13px; padding:18px 0 16px 19px; width:205px; background:url(../images/common/snb/bg_etc.png) no-repeat; z-index:20;}
+#snb .quicklink img{_behavior:none;}
+
+/* content */
+#content select{min-width:65px; height:18px; border:1px solid #53462C; background:#2D2212; color:#9B8966;}
+#content h2{height:21px; text-align:right;}
+#content h3{margin:22px 0 20px 0; padding:0 0 0 10px; height:24px; border-bottom:1px solid #3B3529;}
+#content .path{height:20px; text-align:right; color:#9B8966; line-height:12px;}
+#content .path strong{color:#996600;}
+#content .btnContentTop{position:absolute; bottom:0; right:36px;}
+ .bgContentBottom{clear:both; margin:-1px 0 0 0; height:25px; background:url(../images/common/bg_content_bottom.png) no-repeat right bottom;} 

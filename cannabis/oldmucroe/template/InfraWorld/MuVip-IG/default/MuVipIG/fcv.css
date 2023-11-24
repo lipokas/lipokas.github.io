@@ -1,0 +1,33 @@
+
+.FlareMU_Content {
+	font-family: Tahoma;
+	font-size: 13px;
+	color: #000000;
+	font-weight: bold;
+	-moz-border-radius: 0 8px 0 0;
+
+}
+.FlareMU_LoginForm {
+	font-family: Tahoma;
+	font-size: 13px;
+	color:#FFFFFF;
+	background-image:url(../images/input.png);
+padding-left:3px;
+border:0px;
+height:25px;
+width:154px;
+
+}
+.tmp_m_content .tmp_right_title { background-image:url(../images/n_news.png);
+background-repeat:no-repeat;
+height:40px;
+font-size:13px;
+font-family:Arial, Helvetica, sans-serif;
+color:#ffffff; 
+padding-left: 13px;
+padding-top: 3px;}
+.tmp_m_content .tmp_page_content_ann { font:normal 12px/24px Arial, Helvetica, sans-serif; color:#375264; margin:5px; }
+.ann_date { font-family: Tahoma;
+	font-size: 13px;
+	color: #ffffff;
+}

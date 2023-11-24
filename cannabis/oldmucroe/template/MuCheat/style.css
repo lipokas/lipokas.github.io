@@ -1,0 +1,768 @@
+body {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 12px;
+	color: #bfaa88;
+	background:url('./img.mucheat.com/header.jpg') no-repeat;
+	background-position: center top;
+	background-color: #000;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+}
+
+h1, h2, h3 {
+	color: #ff910b;
+	padding: 0px;
+	margin: 0px;
+}
+
+h4 {
+	padding: 0px;
+	margin: 0px;
+}
+
+h5 {
+	padding: 0px;
+	margin: 0px;
+	color: #ff910b;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.hidden {
+	display: none;
+}
+
+a {
+	color: #ff910b;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff6c00;
+	text-decoration: none;
+}
+
+.b5 { margin-bottom: 5px; }
+.b10 { margin-bottom: 10px; }
+
+.t5 { margin-top: 5px; }
+.t10 { margin-top: 10px; }
+.t15 { margin-top: 15px; }
+.t20 { margin-top: 20px; }
+
+.l5 { margin-left: 5px; }
+.l10 { margin-left: 10px; }
+.l12 { margin-left: 12px; }
+
+.normal {
+	font-weight: normal;
+	color: #bfaa88;
+}
+
+.normal2 {
+	font-weight: normal;
+	color: #7e705a;
+}
+
+.normal3 {
+	font-weight: normal;
+	color: #e79735;
+}
+
+.normal4 {
+	color: #4d3c30;
+}
+
+.remark {
+	color: #e79735;
+	font-weight: bold;
+}
+
+.remark2 {
+	color: #ff910b;
+	font-weight: bold;
+}
+
+.medium {
+	font-size: 11px;
+}
+
+.small {
+	font-size: 10px;
+}
+
+p#boxTitle {
+	color: #ff910b;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+div.scroll {
+	max-height: 200px;
+	overflow: auto;
+	border: 1px solid #4e412a;
+	background-color: #1b1410;
+	padding: 5px;
+}
+
+input {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 12px;
+	height: 20px;
+	border: 1px solid #4e412a;
+	background-color: #352c23;
+	color: #dfaa6a;
+	padding-left: 3px;
+}
+
+select  {
+	font-size: 12px;
+	height: 24px;
+	border: 1px solid #4e412a;
+	background-color: #352c23;
+	color: #dfaa6a;
+	padding-left: 3px;
+}
+
+textarea  {
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 12px;
+	color: #dfaa6a;
+	border: 1px solid #4e412a;
+	background-color: #352c23;
+	padding: 3px;
+}
+
+div#topBar {
+	background:url('./img.mucheat.com/topbar.png') repeat-x;
+	padding: 2px 2px 5px 2px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+	width: 100%;
+}
+
+img, #topBar { behavior: url('iepngfix.html'); }
+
+#topBarLeft {
+	width: 30%;
+	float: left;
+	margin-top: 2px;
+	text-align: left;
+}
+
+#langDiv {
+	width: 130px;
+}
+
+#topBarRight {
+	width: 50%;
+	float: right;
+	margin-top: 1px;
+	text-align: right;
+	color: #999;
+}
+
+img {
+	border: 0;
+}
+
+img.imgMiddle {
+	vertical-align: text-top;
+}
+
+div#captchaField {
+	margin-left: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+div#captchaImg {
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+div#RegisterSubmit {
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div#submitButtonInfo {
+	margin: 4px 0px 0px 5px;
+}
+
+.FormBlock fieldset {
+	width: 490px;
+	border: none;
+	clear: both;
+	padding: 0.50em 0em 0em 0.20em;
+}
+
+.FormBlock label {
+	display: block;
+	text-align: right;
+	padding: 4px 5px 0px 0px;
+}
+
+.FormBlock label.Float {
+	float: left;
+	width: 120px;
+}
+
+.FormBlock label {
+	display: block;
+	text-align: right;
+	padding: 4px 5px 0px 0px;
+}
+
+.FormBlock label.floatRight {
+	float: right;
+	width: 20em;
+}
+
+#captchaImgDiv {
+	float: left;
+}
+
+#captchaCommentDiv {
+	width: 132px;
+	float: left;
+	font-size: 11px;
+	color: #766953;
+	margin: 15px 0px 0px 10px;
+}
+
+.fieldError {
+	font-size: 12px;
+	
+	display: none;
+}
+
+.regError {
+	margin: 5px 0px 5px 125px;
+}
+
+#captchaError {
+	margin: 5px 0px 5px 130px;
+}
+
+.passMeter {
+	font-size: 12px;
+	color: #ff910b;
+}
+
+button.nospace {
+	padding: 0px;
+	margin: 0px;
+}
+
+.comment {
+	font-size: 11px;
+	color: #766953;
+}
+
+.iniVal {
+	font-size: 11px;
+	color: #766953;
+}
+
+.iniLoginUId {
+	background: #352c23 url('./img.mucheat.com/userid.gif') 5px 4px no-repeat;
+}
+
+.iniLoginPass {
+	background: #352c23 url('./img.mucheat.com/password.gif') 5px 4px no-repeat;
+}
+
+#contentFrame {
+	clear:both;
+	float:left;
+	width:100%;
+	position: relative;
+	z-index: 1;
+}
+
+#contentWrapper {
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 240px;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+div#leftField {
+	float: left;
+	width: 212px;
+	padding-top: 30px;
+	margin-left: 25px;
+	overflow: auto;
+}
+
+.frame1 {
+	width: 212px;
+	background: url('./img.mucheat.com/frame1.png') no-repeat;
+}
+
+.frame2 {
+	width: 570px;
+	background: url('./img.mucheat.com/frame2.png') no-repeat;
+}
+
+div#leftFieldTop {
+	height: 12px;
+	background-position: 0px 0px;
+}
+
+div#leftContentOutter {
+	width: 212px;
+	float: left;
+	background: url('./img.mucheat.com/frame_shadow.png') repeat-y;
+	background-position: right;
+	
+}
+
+div#leftContent {
+	width: 208px;
+	background-color: #130e0c;
+}
+
+div#leftFieldBottom {
+	height: 20px;
+	background-position: 0px -12px;
+	overflow: auto;
+}
+
+div#middleField {
+	position: relative;
+	float: left;
+	width: 605px;
+	margin-left: 5px;
+	overflow: auto;	
+}
+
+div#voteTab {
+	width: 38px;
+	height: 200px;
+	top: 50px;
+	left: 566px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.voteTaben { background: url('./img.mucheat.com/en/vote_tab.png') no-repeat; }
+.voteTabes { background: url('./img.mucheat.com/es/vote_tab.png') no-repeat; }
+.voteTabpt { background: url('./img.mucheat.com/pt/vote_tab.html') no-repeat; }
+
+.voteLink {
+	width: 38px;
+	height: 200px;
+}
+
+div#middleFieldTop {
+	height: 12px;
+	background-position: 0px 0px;
+	
+}
+
+div#middleContentOutter {
+	width: 570px;
+	background: url('./img.mucheat.com/frame_shadow.png') repeat-y;
+	background-position: right;
+}
+
+div#middleContent {
+	width: 566px;
+	min-height: 320px;
+	background-color: #130e0c;
+	overflow: auto;
+}
+
+div#midSpacer {
+	margin: 0px 10px;
+}
+
+div#middleFieldBottom {
+	height: 20px;
+	background-position: 0px -12px;
+	
+}
+
+div#memberArea {
+	margin-left: 9px;
+	overflow: auto;
+}
+
+div.leftBgHeader {
+	width: 190px;
+	height: 10px;
+	background: url('./img.mucheat.com/menu_left.gif') 0px 0px no-repeat;
+}
+
+div.leftBgContentWrap {
+	width: 190px;
+	background-color: #1b1410;
+	overflow: auto;
+}
+
+div.leftBgBottom {
+	width: 190px;
+	height: 10px;
+	background: url('./img.mucheat.com/menu_left.gif') 0px -10px no-repeat;
+}
+
+#memberArea input  {
+	height: 17px;
+	margin-bottom: 3px;
+}
+
+div#loginFields {
+	width: 115px;
+	float: left;
+}
+
+div#loginButton {
+	float: left;
+	clear: right;
+}
+
+p#loginButtonImg {
+	width: 49px;
+	height: 45px;
+	background-image: url('./img.mucheat.com/go.gif');
+	text-indent: -9999px;
+	
+}
+
+.goDefault { background-position: 0px 0px; }
+.goHover { background-position: 0px -45px; }
+.goDisabled { background-position: 0px -90px; }
+
+div.langImg {
+	width: 22px;
+	height: 16px;
+	background-image: url('./img.mucheat.com/lang_flag.gif');
+	margin-left: 3px;
+}
+
+div#en.langImg { background-position: 0px 0px; }
+div#en.langImg.hover { background-position: 0px -16px; }
+div#es.langImg { background-position: -22px 0px; }
+div#es.langImg.hover { background-position: -22px -16px; }
+div#pt.langImg { background-position: -44px 0px; }
+div#pt.langImg.hover { background-position: -44px -16px; }
+
+div#loginInfo {
+	float: left;
+}
+
+#loginBttnResult {
+	position: absolute;
+	cursor: default;
+}
+
+#logout {
+	margin-left: 153px;
+	margin-top: -8px;
+	position: absolute;
+}
+
+#charQuick {
+	clear: both;
+}
+
+#charStats {
+	width: 167px;
+	margin-top: 5px;
+}
+
+div#leftMenu {
+	padding: 10px 0px 0px 10px;
+}
+
+div#menuBottom {
+	height: 13px;
+	margin-left: 18px;
+	background: url('./img.mucheat.com/bg_menu_bottom.html') no-repeat;
+}
+
+#menuList {
+	padding: 2px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+ul#menuList li { height: 25px; background-image: url('./img.mucheat.com/bg_menu_link.gif'); background-position: 0px 0px; padding: 2px 0px 0px 10px; }
+ul#menuList li:hover { background-position: 0px -25px; }
+#menuList li a { color: #bfaa88; }
+
+div#midAlerts {
+	background-color: #9e0000;
+	border-right: 2px solid #000;
+	border-bottom: 2px solid #000;
+	margin-bottom: 10px;
+	padding: 5px;
+	
+}
+
+div#pageHeader {
+	margin: 0px 10px 20px 5px;
+}
+
+div#screenshots {
+	margin-left: 10px;
+}
+
+div#videos {
+	margin: 30px 0px 0px 12px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+p {
+	padding: 0px;
+	margin: 0px;
+}
+
+.subTitle {
+	font-size: 15px;
+}
+
+.center {
+	text-align: center;
+}
+
+div#footer {
+	background:url('./img.mucheat.com/footer-bg.html') top left repeat-x;
+	height:50px;
+	color: #999;
+	margin:0;
+	padding-top: 8px;
+}
+
+div#footerLinks {
+	text-align: right;
+	font-weight: bold;
+	padding-right: 5px;
+}
+
+#footerLinks a {
+	color: #656565;
+	text-decoration: none;
+}
+
+#footerLinks a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+#footerSeparator {
+	font-weight: normal;
+}
+
+div#copyright {
+	font-size: 11px;
+	text-align: center;
+	color: #4d3c30;
+	margin-top: 1px;
+}
+
+#copyrightLink {
+	color: #7f6e62;
+}
+
+#copyrightLink:hover {
+	color: #eedbad;
+}
+
+div#clientDiv {
+	width: 310px;
+	margin-bottom: 20px;
+}
+
+ul#clientList {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul#clientList li {
+	background-image: url('./img.mucheat.com/bullet2.gif');
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding: 8px 0px 10px 50px;
+	border-bottom: 1px solid #444;
+	font-weight: bold;
+}
+
+ul#clientList li a {
+	text-decoration: none;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.txtLink {
+	cursor: pointer;
+}
+
+.txtLink:hover {
+	cursor: pointer;
+	color: #eedbad;
+}
+
+.txtLink2 {
+	color: #ff910b;
+	cursor: pointer;
+}
+
+.txtLink2:hover {
+	cursor: pointer;
+	color: #ff6c00;
+}
+
+.txtInfo {
+	color: #ff910b;
+	cursor: help;
+}
+
+.txtInfo:hover {
+	cursor: help;
+	color: #ff6c00;
+}
+
+ol#gameDesList {
+	margin-top: 5px;
+	padding-left: 30px;
+}
+
+.pop {
+	border-left: 1px solid #41342f;
+	border-top: 1px solid #41342f;
+	border-right: 2px solid #000;
+	border-bottom: 2px solid #000;
+}
+
+div.newsHeader {
+	padding: 2px 4px 4px 4px;
+	cursor: pointer;
+	overflow: auto;
+}
+
+.newsH{
+	background-color: #231a16;
+}
+
+.normalH {
+	color: #f3e5c4;
+}
+
+.newsHH {
+	background-color: #40322c;
+}
+
+.newsBody {
+	width: 531px;
+	background-color: #1b1410;
+	margin-left: 2px;
+	padding: 8px 5px 10px 5px;
+	position: relative;
+}
+
+.newsControl {
+	bottom: 10px;
+	left: 500px;
+	position: absolute;
+}
+
+#addNewsSubmit {
+	padding: 1px 2px 2px 2px;
+	border: 1px solid #41342f;
+	border-bottom: 2px solid #000;
+	vertical-align: bottom;
+	cursor: pointer;
+}
+
+.addNewsSubmit {
+	color: #bfaa88;
+	background-color: #231a16;
+}
+
+.addNewsSubmitH {
+	color: #f3e5c4;
+	background-color: #40322c;
+}
+
+select#addNewsCategory {
+	color: #e79735;
+	vertical-align: bottom;
+	background-color: #231a16;
+	border-bottom: 2px solid #000;
+}
+
+input.addNewsTitle  {
+	height: 19px;
+	width: 310px;
+	color: #bfaa88;
+	background-color: #231a16;
+	border-bottom: 2px solid #000;
+	
+}
+
+input.addNewsTitle2  {
+	height: 19px;
+	width: 540px;
+	color: #bfaa88;
+	background-color: #231a16;
+	border-bottom: 2px solid #000;
+	
+}
+
+input#addNewsDate {
+	height: 19px;
+	width: 79px;
+	color: #7e705a;
+	background-color: #231a16;
+	border-bottom: 2px solid #000;
+}
+
+table#rankingTable {
+	width: 100%;
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+}
+
+th { font-weight: normal; }
+table#rankingTable tr { height: 18px; }
+table#rankingTable th { background-color: #60281f; }
+.rFlag { width: 24px; height: 18px; }
+.even { background-color: #231a16; }
+
+ul.statsList {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.gInfo { margin-left: 5px; }

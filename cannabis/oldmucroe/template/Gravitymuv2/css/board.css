@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* 
+------------------------------------------------------------
+MGAME Web Design Team
+first written: Yang Young bok 090723
+updated: 
+------------------------------------------------------------
+*/
+
+/* common */
+#content .inputText{padding:2px 0 0 5px; height:14px; border:1px solid #53462C; background:#000000; color:#9B8966;}
+
+.btnGroup{clear:both; margin:16px 0 0 0; text-align:right; line-height:10px; word-spacing:5px; overflow:hidden; _zoom:1;}
+.btnGroupCenter{clear:both; margin:25px 0 0 0; text-align:center; line-height:10px; word-spacing:5px; overflow:hidden; _zoom:1;}
+.btnForum{position:absolute; top:90px; right:36px;}
+
+/* ranking */
+.bestCountry{margin:2px 0 20px 0; padding:1px 0 2px 0; width:100%; border:solid #3B3529; border-width:1px 0; background:#2D2419; overflow:hidden; _zoom:1;}
+.bestCountry dt{float:left; margin:0 5px 0 10px; padding:0 0 0 7px; background:url(../images/common/bu_dot.gif) no-repeat 0 8px; font-size:10px; font-weight:bold; display:inline;}
+.bestCountry dd{float:left;}
+.bestCountry dd strong{font-weight:normal; color:#996600;}
+.bestCountry dd.from{float:right; margin:0 10px 0 0; color:#635D51; display:inline;}
+.textRanking{margin:5px 10px; font-weight:bold; font-size:10px;}
+.btnRanking{margin:-20px 0 -7px 0; padding:5px 0 0 0; height:22px; text-align:right;}
+
+.tableRanking{border-collapse:collapse; margin:0 0 20px 0; width:100%; border-bottom:3px solid #2C2212; background:url(../images/notice/bg_th.gif) repeat-x;}
+.tableRanking thead th{padding:7px 0 6px 0; color:#AC823F; font-size:10px;}
+.tableRanking tbody th{padding:4px 0; border:solid #2C2212; border-width:0 1px 1px 0; color:#AC823F; background:#170E03; font-size:10px;}
+.tableRanking tbody td{padding:4px 0; border:solid #2C2212; border-width:0 1px 1px 0; color:#9B8966; text-align:center;}
+.tableRanking .lineRNone{border-right:0;}
+.tableRanking .AlignLeft{padding-left:15px; padding-right:15px;}
+
+/* page list */
+.pageTotal{height:20px; overflow:hidden; _zoom:1;}
+.pageTotal li{float:left; margin:0 0 0 23px; padding:0 0 0 8px; background:url(../images/common/bu_dot.gif) no-repeat 0 6px; line-height:12px; display:inline;}
+.pageTotal li.sort{float:right; margin:0; padding:0; background:none;}
+.pageTotal li.sort dt{float:left;}
+.pageTotal li.sort dd{float:left; margin:0 0 0 6px;}
+
+.pageList{clear:both; margin:16px 0 0 0; padding:7px 0; border:1px solid #2E2212; background:#170E03; text-align:center; font-size:10px; line-height:10px; font-weight:bold; overflow:hidden; _zoom:1;}
+.pageList li{margin:0 2px; display:inline;}
+.pageList li img{margin:0 1px; vertical-align:text-bottom;}
+.pageList a{font-weight:normal;}
+.pageList a:hover{font-weight:bold;}
+
+/* search */
+.fSearch{margin:20px 0 0 0; text-align:center;}
+.fSearch .inputText{width:233px;}
+
+/* board list */
+.tableList{border-collapse:collapse; width:100%; border-bottom:3px solid #2C2212; background:url(../images/notice/bg_th.gif) repeat-x;}
+.tableList thead th{padding:7px 0 12px 0; color:#AC823F; font-size:10px;}
+.tableList tbody tr.on{background:#170E03;}
+.tableList tbody td{padding:4px 0; border-bottom:1px solid #2C2212; color:#4D4432; text-align:center;}
+.tableList tbody td.AlignLeft{padding-left:15px;}
+#rankingList tbody td{color:#9B8966;}
+
+/* board view & write */
+.boardView{margin:30px 0 0 0;}
+.boardView .title{margin:0 0 -1px 0; border:solid #584324; border-width:1px 0; background:#2D2419; font-size:10px; overflow:hidden; _zoom:1;}
+.boardView .title dt{float:left; padding:5px 0 5px 20px; width:65px; font-weight:bold; color:#947139;}
+.boardView .title dd{float:left; padding:5px 0;}
+.boardView .title dd.fixed{width:350px;}
+.boardView .title dd input{float:left; width:556px;}
+.boardView .view{margin:7px 0 0 0; padding:10px 20px; border:solid #2C2212; border-width:1px 0; background:#170E03;}
+.boardView .view p{margin:20px 0;}
+.boardView .write{margin:6px 0 0 0; padding:5px 0 5px 86px; border:solid #2C2212; border-width:1px 0; background:#170E03;}
+.boardView .write textarea{padding:10px; width:540px; height:240px; border:1px solid #53462C; background:#000000; color:#9B8966; overflow:auto; font:10px/14px Verdana;}
+
+.fComment{margin:10px 0 0 0; padding:0 0 35px 0;}
+.fComment .box{padding:8px 0 0 16px; height:28px; border:solid #584324; border-width:1px 0; background:#2D2419;}
+
+.fComment .box label{margin:0 8px 0 0; font-weight:bold; font-size:10px; color:#947139;}
+.fComment .box input{vertical-align:middle;}
+.fComment .box .inputText{margin:0 4px 0 0; width:523px;}
+.fComment .box img{margin:0 0 -7px 0}
+
+.fComment dl{clear:both; padding:9px 16px; border-bottom:1px solid #2C2212; line-height:12px; overflow:hidden; _zoom:1;}
+.fComment dt .date{color:#635D51;}
+.fComment dt img{float:left; margin:0 20px 0 0; border:1px solid #FFFFFF;}
+.fComment dt img.delete{float:none; margin:0 0 0 5px; border:none; vertical-align:text-bottom;}
+.fComment dd{margin:4px 0 0 0;}
+.fComment .pageList{border:none; background:none;}
+.fComment .btnGroup{margin:-23px 0 0 0;}
+
+.dlFile{margin:5px 0 0 0; border-top:1px solid #584324; background:#2D2419;}
+.dlFile dt{float:left; padding:5px 0 5px 20px; width:66px; font-weight:bold; font-size:10px; color:#947139;}
+.dlFile dd{float:left; padding:4px 0 0 0;}
+.dlFile dd .inputFile{width:562px; height:16px;}
+.dlFile dd.check{clear:both; float:none; padding:3px 0 5px 86px; border-top:1px solid #584324; border-bottom:1px solid #3B3529; background:#040201; color:#635D51;}
+
+/* photo list */
+.photoList{padding:14px 0 7px 11px; border-top:3px solid #2C2212; border-bottom:3px solid #382815; overflow:hidden; _zoom:1;}
+.photoList dl{float:left; margin:10px 10px 5px 10px; padding:0 0 15px 0; width:146px; color:#635D51; display:inline; text-align:center; line-height:11px;}
+.photoList dt img{display:block; margin:0 auto 7px auto; padding:2px; background:#221302; border:1px solid #362301;}
+.photoList dt a:hover img{border:1px solid #6E5322;}
+.photoList dd.author{float:left;}
+.photoList dd.view{float:right; color:#AC823F;}
+.photoList .btnGroup{margin:0 0 0 -10px;}
+
+/* best artwork */
+.bestArtwork{margin:0 0 22px 0; width:686px; height:197px; background:url(../images/community/bg_fanart_best.jpg) no-repeat;}
+.bestArtwork h4{float:left; width:321px;}
+.bestArtwork dl{float:left; margin:14px 8px 0 0; padding:10px 15px 0 11px; width:140px; height:163px; background:url(../images/community/bg_fanart_best_img.png) no-repeat; text-align:center; line-height:11px; color:#635D51;}
+.bestArtwork dl:hover{display:block; background-position:0 -180px;}
+.bestArtwork dt img{display:block; margin:0 auto 14px auto;}
+
+/* gallery */
+.viewGallery{float:left; margin:20px 0 0 51px; padding:11px 20px 0 12px; width:343px; height:480px; border-right:1px solid #2E2212; background:url(../images/community/bg_gallery.gif) no-repeat; display:inline;}
+.listGallery{float:left; margin:20px 0 0 20px; width:200px; display:inline;}
+.listGallery li{float:left; margin:0 13px 18px 0;}
+.listGallery li img{padding:2px; border:3px solid #6E5322; background:#150D03;}
+
+/* wallpaper */
+.wallpaper{margin:0 0 0 44px;}
+.wallpaper li{float:left; margin:20px 30px 0 30px; padding:0 0 15px 0; display:inline;}
+.wallpaper ul li{float:none; margin:0; display:inline;}
+.wallpaper li img{margin:0 0 5px 0; padding:3px; border:1px solid #6E5322; background:#150D03;}
+.wallpaper ul li img{margin:0; padding:0; border:0; background:none;}
+
+/* multimedia */
+.multimedia{margin:25px 0 0 42px; overflow:hidden; _zoom:1;}
+.multimedia dl{float:left; margin:0 32px; padding:0 0 30px 0; display:inline;}
+.multimedia dt{margin:0 0 5px 0; padding:0 0 0 13px; background:url(../images/community/bu_arrow.gif) no-repeat 0 6px; font-size:10px; font-weight:bold; color:#996600;}
+.multimedia dd{text-align:center; line-height:10px; word-spacing:3px;}
+.multimedia dd.image{margin:0 0 8px 0;}
+.multimedia dd.image img{padding:3px; border:1px solid #6E5322; background:#150D03;}
+
+/* poll */
+.fPoll{margin:30px 0 0 0; text-align:center;}
+.fPoll h4{height:29px; background:url(../images/notice/bg_th.gif) repeat-x; font:bold 10px/29px Verdana; text-indent:30px; color:#AC823F; text-align:left;}
+.fPoll p{margin:10px 0 6px 0; text-align:right;}
+.fPoll ol{margin:0 0 15px 0; padding:10px 0 10px 60px; border:solid #2C2212; border-width:1px 0 3px 0; list-style:none; line-height:11px; text-align:left;}
+.fPoll li{margin:10px 0;}
+.fPoll li input{margin:0 5px 0 0; width:13px; height:13px; vertical-align:middle;}
+.pollViewList{margin:5px 0 30px 0;}
+.pollViewList p{margin:0 0 5px 0; text-align:right;}
+.pollViewList dl{padding:20px 50px; border:solid #2C2212; border-width:3px 0;}
+.pollViewList dd{margin:3px 0 10px 0; background:url(../images/community/bg_poll.gif) repeat-x 0 5px; line-height:1px; text-align:right; color:#976500;}
+.pollViewList dd span{display:inline-block; padding:0 0 0 10px; background:#040201; line-height:12px;}

@@ -1,0 +1,124 @@
+
+img 		{
+       			border-right: medium none;
+        		border-top: medium none;
+        		border-left: medium none;
+        		border-bottom: medium none;
+       		}
+
+.xa_link01_int 	{
+			font:7pt verdana;
+			color:#ae7630;
+			text-decoration:none;
+			line-height:11pt;
+		}
+
+.xa_link01:link {
+			font:8pt verdana;
+			color:#ae7630;
+			text-decoration:none;
+			line-height:11pt;
+		}
+	
+.xa_link01:visited {
+			font:8pt verdana;
+			color:#ae7630;
+			text-decoration:none;
+			line-height:11pt;
+		}
+
+.xa_link01:active {
+			font:8pt verdana;
+			color:#ae7630;
+			text-decoration:none;
+			line-height:11pt;
+		}
+
+.xa_link01:hover {
+			font:8pt verdana;
+			color:#ae7630;
+			text-shadow: #805825 0 0 10px;
+			text-decoration:underline;
+			line-height:11pt;
+		}
+
+.xa_link04  {
+			font:9pt verdana;
+			color:#badea0;
+			text-decoration:none;
+			line-height:11pt;
+			font-weight:bold;
+		}
+
+.static 	{
+			color: #ae7630;
+		}
+
+.field 		{
+			background: #F9F9F9;
+			border: 1px solid #CCC;
+			margin: 5px;
+			padding: 0;
+			text-align: left;
+}
+
+.messagebox	{
+ 			position:absolute;
+ 			width:100px;
+ 			margin-left:20px;
+ 			border:1px solid #c93;
+ 			background:#ffc;
+ 			padding:2px;
+		}
+
+.messageboxok	{
+ 			position:absolute;
+ 			width:auto;
+ 			margin-left:15px;
+ 			border:1px solid #349534;
+ 			background:#C9FFCA;
+ 			padding:2px;
+ 			font-weight:bold;
+ 			color:#008000;
+		}
+
+.messageboxerror{
+ 			position:absolute;
+ 			width:auto;
+ 			margin-left:15px;
+ 			border:1px solid #CC0000;
+ 			background:#F7CBCA;
+ 			padding:2px;
+ 			font-weight:bold;
+ 			color:#CC0000;
+		}
+
+input.button 	{ 
+	  		color:#050; 
+	  		background-color: #fed; 
+		}
+
+#vote_bg
+{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:#000000;
+	opacity: 0.9;
+	z-index:99998;
+}
+
+#vote_container
+{
+	cursor:pointer; 
+	position:absolute; 
+	margin:auto; 
+	width:380px; 
+	text-align:center; 
+	margin-top:200px; 
+	padding:20px; 
+	background-color:#202020; 
+	opacity: 1.0; 
+	border:1px solid #606060; 
+	z-index:99999;
+}

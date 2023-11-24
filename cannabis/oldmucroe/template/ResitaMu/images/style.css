@@ -1,0 +1,272 @@
+	body
+		{
+		background-color: #000000;
+		}
+	body,td,input
+		{
+		margin: 0px;
+		vertical-align: top;
+		font-family: Arial;
+		font-size: 11px;
+		color: #cc9966;
+		}
+	table
+		{
+		border: 0px;
+		}
+	img
+		{
+		border: 0px;
+		}
+	li
+		{
+		list-style-image: url('template/listDot.png');
+		//background-image: url('template/line2.png');
+		background-repeat: no-repeat;
+		background-position: 100% 100%;
+		margin-left: -20px;
+		}
+	a
+		{
+		text-decoration: none;
+		color: #cc9966;
+		}
+	fieldset
+		{
+		-moz-border-radius: 4px;
+		border: 2px solid #000000;
+		background-image: url('bg.png');
+		}
+	legend
+		{
+		-moz-border-radius: 4px;
+		border: 0px solid #422810;
+		background-image: url('bg.png');
+		}
+	.copyrights
+		{
+		color: #ffcc99;
+		}
+	.floatleft
+		{
+		float: left;
+		}
+	.floatright
+		{
+		float: right;
+		}
+	.announces
+		{
+		//-moz-border-radius: 4px;
+		background-color: #140b07;
+		border-bottom: 1px solid #422810;
+		padding: 5px;
+		}
+	.title, .statsMain
+		{
+		//-moz-border-radius: 4px;
+		background-color: #140b07;
+		border: 1px solid #290e07;
+		padding: 2px 10px 2px 10px;
+		color: #cc9933;
+		}
+	.statsMain, .statsSub
+		{
+		vertical-align: middle;
+		text-align: center;
+		}
+	.bigger
+		{
+		//-moz-border-radius: 4px;
+		color: #cc9933;
+		font-weight: bold;
+		margin: 5px 0px 0px 5px;
+		}
+	.offline
+		{
+		color: #663300;
+		}
+	.online
+		{
+		color: #ff6633;
+		}
+	#e505
+		{
+		background-image: url('errors/505.png');
+		width: 396px;
+		height: 173px;
+		}
+	#e404
+		{
+		background-image: url('errors/404.png');
+		width: 396px;
+		height: 173px;
+		}
+	#server
+		{
+		background-image: url('stats/server.png');
+		width: 70px;
+		height: 59px;
+		}
+	#serverStats
+		{
+		background-image: url('stats/servers.png');
+		width: 100px;
+		height: 195px;
+		}
+	#serverBox
+		{
+		background-image: url('stats/box.png');
+		width: 100px;
+		height: 195px;
+		}
+	#more
+		{
+		background-image: url('more.png');
+		width: 25px;
+		height: 14px;
+		}
+	#download
+		{
+		background-image: url('template/download.png');
+		width: 139px;
+		height: 67px;
+		}
+	fieldset#downloads
+		{
+		-moz-border-radius: 0px;
+		background: none;
+		border: 0px;
+		
+		background-image: url('template/downloads_bg.png');
+		background-position:center;
+		height: 108px;
+		padding: 30px 10px 0px 25px;	
+		
+		}
+	#download1
+		{
+		background-image: url('template/download1.png');
+		width: 139px;
+		height: 67px;
+		}
+	fieldset#downloads1
+		{
+		-moz-border-radius: 0px;
+		background: none;
+		border: 0px;
+		
+		background-image: url('template/downloads_bg.png');
+		background-position:center;
+		height: 108px;
+		padding: 30px 10px 0px 25px;	
+		
+		}
+.buttons
+		{
+		border: 1px solid #cc9966;
+		background-color: #000000;
+		opacity: 0.5;
+		padding: 5px 5px 0px 5px;
+font-family: Arial;
+		font-size: 11px;
+		color: #cc9966;
+		}
+.l
+		{
+		-moz-border-radius: 4px;
+		border: 1px solid #cc9966;
+		background-color: #000000;
+		opacity: 0.5;
+		width: 220px;
+		height: 25px;
+		padding: 5px 5px 0px 5px;
+		}
+	input#data
+		{
+		-moz-border-radius: 4px;
+		border: 1px solid #cc9966;
+		background-color: #000000;
+		opacity: 0.5;
+		width: 220px;
+		height: 25px;
+		padding: 5px 5px 0px 5px;
+		}
+	#main
+		{
+		width: 900px;
+		}
+	#tabs
+		{
+		width: 900px;
+		margin-bottom: -25px;
+		}
+	#tab
+		{
+		text-align: center;
+		}
+	#header
+		{
+		width: 900px;
+		height: 352px;
+		padding-top: 160px;
+		padding-left: 500px;
+		background-image: url('template/header.jpg'); 
+		}
+	#loginbox
+		{
+		width: 272px;	
+		height: 135px;
+		background-image: url('template/login_box.png');
+		background-repeat: no-repeat;
+		padding-top: 5px;
+		}
+	#navbar
+		{
+		width: 900px;
+		height: 35px;
+		background-image: url('template/navbar.jpg');
+		vertical-align: middle;
+		padding: 5px 80px 0px 80px;
+		}
+	#decoration
+		{
+		width: 900px;
+		height: 81px;
+		background-image: url('template/decoration.jpg');
+		}
+	#content
+		{
+		width: 900px;
+		height: 409px;
+		background-image: url('template/content_bg.jpg');
+		background-repeat: no-repeat;
+		}
+	#smallContent
+		{
+		width: 133px;	
+		height: 386px;
+		background-image: url('template/smallContent.png');
+		background-repeat: no-repeat;
+		padding: 15px 20px 0px 20px;
+		}
+	#bigContent
+		{
+		width: 574px;
+		height: 386px;
+		background-image: url('template/bigContent.png');
+		background-repeat: no-repeat;
+		padding: 15px 20px 0px 20px;
+		}
+	#serverStats1
+		{
+		background-image: url('stats/servers1.png');
+		width: 96px;
+		height: 381px;
+		}
+	#serverStats2
+		{
+		background-image: url('stats/servers2.png');
+		width: 90px;
+		height: 482px;
+		}

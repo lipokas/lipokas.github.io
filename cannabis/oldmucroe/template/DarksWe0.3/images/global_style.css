@@ -1,0 +1,251 @@
+body  		{ background:#000; margin:0 auto; }
+body,td,th 	{ color:#cbb988; font-family:tahoma; font-variant:none; font-size:12px; }
+body,a 		{ cursor: url(MU.cur), auto; }
+a:hover 		{ cursor: url(MU2.cur), auto; }
+
+
+
+
+
+legend {
+           color : #cbb988;
+           background :;
+           font : 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+		font-variant: none;
+      }
+fieldset{
+	
+	border-width:1px 1px 1px 1px;
+	border-style:solid;
+	border-color:#cbb988;
+}
+.INPUT {
+BORDER-RIGHT: #523418 1px solid; BORDER-TOP: #523418 1px solid; MARGIN: 0px; FONT: 12px "tahoma"; COLOR: #999999; BORDER-LEFT: #523418 1px solid; COLOR: #000000; BORDER-BOTTOM: #523418 1px solid; 
+}
+}
+.TEXTAREA {
+BORDER-RIGHT: #523418 1px solid; BORDER-TOP: #523418 1px solid; MARGIN: 0px; FONT: 12px "tahoma"; COLOR: #999999; BORDER-LEFT: #523418 1px solid; COLOR: #000000; BORDER-BOTTOM: #523418 1px solid; 
+}
+.download {
+color: #9C4100;
+font-size: 12px;
+  font-variant: none;
+font-family:tahoma;
+}
+.dwdtxt {
+	color: #999999;
+	font-size: 12px;
+  font-variant: none;
+	font-family:tahoma;
+}
+table.sample {
+	border-width: 1px 1px 1px 1px;
+	border-spacing: 2px;
+	border-style: hidden hidden hidden hidden;
+	border-color: #634121 #634121 #634121 #634121;
+	border-collapse: separate;
+  font-variant: none;
+	
+}
+table.sample th {
+	border-width: 1px 1px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	border-style: dotted dotted dotted dotted;
+	border-color: #634121 #634121 #634121 #634121;
+	  font-variant: none;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+table.sample td {
+	border-width: 1px 1px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	border-style: dotted dotted dotted dotted;
+	border-color: #634121 #634121 #634121 #634121;
+	  font-variant: none;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+p
+{
+font-size: 12px
+}
+.buttons 		{ color:#cbb988; border:1px solid #796655; background-color:#1f160f; height:22px;}
+.buttons:hover	{ color:#cbb988; border:1px solid #615142; background-color:#1f160f; height:22px;}
+
+.buttons2 		{ color:#cbb988; border:1px solid #796655; background-color:#1f160f; height:16px; }
+.buttons2:hover 	{ border:1px solid #615142; }
+
+.buttonslink { color:#cbb988;
+font:11px tahoma; border: 1px solid #615142; 
+background-color: #1f160f; padding-left:3px;
+size:11px;
+padding-top: 2px; height:18px;}
+
+.smallcap { 
+color:#cbb988;
+font:12px tahoma;  
+font-weight:bold
+}
+
+.buttonstex 			{ color:#cbb988; border: 1px solid #796655;  background-color: #1f160f; padding:2px 0 0 3px; }
+.buttonstex:hover 	{ color:#cbb988; border: 1px solid #615142;  background-color: #1f160f; padding:2px 0 0 3px; }
+
+hr.hr4 {
+border-top: 1px dashed #634121;
+border-bottom: 1px solid #634121;
+border-left: #634121;
+  font-variant: none;
+border-right: #634121;
+color: #634121;
+height: 4px;
+}
+.link_menu a:link {
+font-size: 12px;
+font-family:tahoma;
+color: #cbb988; 
+  font-variant: none;
+text-decoration: none
+      }
+.link_menu a:visited {
+font-size: 12px;
+font-family:tahoma;
+color: #cbb988; 
+  font-variant: none;
+text-decoration: none
+      }
+.link_menu a:active {
+font-size: 12px;
+font-family:tahoma;
+color: #cbb988; 
+  font-variant: none;
+text-decoration: none
+}
+.link_menu a:hover {
+font-size: 12px;
+font-family:tahoma;
+color: #9b7850; 
+font-variant: none;
+text-decoration: none
+}
+A:link {
+font-size: 12px;
+font-family:tahoma;
+color: #cbb988; 
+font-variant: none;
+text-decoration: none
+}
+A:visited {
+font-size: 12px;
+font-family:tahoma;
+color: #cbb988; 
+  font-variant: none;
+text-decoration: none
+}
+A:active {
+font-size: 12px;
+font-family:tahoma;
+color: #cbb988; 
+  font-variant: none;
+text-decoration: none
+}
+A:hover {
+font-size: 12px;
+font-family:tahoma;
+color: #9b7850; 
+font-variant: none;
+text-decoration: none
+}
+.sort-table {
+border: 1px solid #371B03;
+border-top: 0px solid #371B03;
+border-left: 0px solid #F0F3F7;		
+font-variant: none;
+border-bottom: 1px solid #371B03;
+border-right: 0px solid #202624;
+font: Icon;
+background:	#271c12;
+font-size: 12px;
+font-family:tahoma;
+}
+
+.sort-table tr { height: 20px; }
+
+.news-head {
+  font-size : 12px;
+  font-variant: none;
+  BACKGROUND: #36261b;
+  height: 25px;
+  color:#cbb988;
+  text-align: left;
+  BORDER-TOP: #180e11  1px solid;
+  BORDER-BOTTOM: #180e11  1px solid;
+  BORDER-LEFT: #180e11  1px solid;
+  BORDER-RIGHT: #180e11  1px solid;
+}
+.news-head2 {
+  font-size : 12px;
+  font-variant: tahoma;
+  BACKGROUND: #36261b;
+  color:#cbb988;
+  BORDER-TOP: #180e11  1px solid;
+  BORDER-BOTTOM: #180e11  1px solid;
+  BORDER-LEFT: #180e11  1px solid;
+  BORDER-RIGHT: #180e11  1px solid;
+}
+
+.news-head3 {
+height: 10px;
+width: 90px;
+  BACKGROUND: #36261b;
+  color:#cbb988;
+  BORDER-TOP: #180e11  1px solid;
+  BORDER-BOTTOM: #180e11  1px solid;
+  BORDER-LEFT: #180e11  1px solid;
+  BORDER-RIGHT: #180e11  1px solid;
+}
+.news-rest {
+  font-size : 12px;
+  font-variant: none;
+  BACKGROUND: #483422;
+  COLOR: #cbb988;
+  text-align: left;
+  BORDER-BOTTOM: #180e11 2px solid;
+  BORDER-LEFT: #180e11 2px solid;
+  BORDER-RIGHT: #180e11 2px solid;
+} 
+.theadn {
+           background : #36261b;
+           vertical-align : middle;
+           line-height : 17px;
+} 
+.theadnb {
+           background : #604c2f;
+           vertical-align : middle;
+           line-height : 17px;
+} 
+.logg {
+	background-image: url(logg.png);
+	background-position: center;
+	border: solid 0px;
+           height: 50px;
+width: 54px; }
+
+.tdct 			{ text-align:left; padding-bottom:10px; }
+
+.mhead			{ font-weight:bold; text-transform:uppercase; color:#afa075; }
+.cntr			{ background-repeat:no-repeat; background-position:left center; padding-left:20px; height:18px; vertical-align:middle; line-height:18px; }
+
+.ihover {
+	text-align: center; 
+	font-family: arial; 
+	font-size:12px;
+	padding:15px;
+	background:black;
+	border:none;
+}
+
+.myitem_taken {
+	padding:0px;
+	background-image:url('images/interface/takenslotbg.html');
+	background-repeat: repeat;
+	display:-moz-inline-box;
+	display:inline-block
+}
